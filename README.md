@@ -14,6 +14,27 @@
 
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- AI TERMINAL — live thought updated every 30 min                 -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<p align="center">
+  <a href="https://github.com/qosu/qosu/actions/workflows/ai-thought.yml">
+    <img src="assets/terminal.svg" width="440" alt="qosu AI terminal thought">
+  </a>
+</p>
+
+<p align="center">
+  <sub>
+    <kbd>⟐ live thought · updated every 30 min</kbd>
+    &nbsp;
+    <a href="https://repo.you/thought"><kbd>api</kbd></a>
+  </sub>
+</p>
+
+<br>
+
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
 <!-- STATS DASHBOARD                                                 -->
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
