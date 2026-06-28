@@ -35,3 +35,4 @@ Key fingerprint: C3A9 73E8 F0C5 962D 01EF  1122 FE55 2785 3C13 59A2
 Created:          2026-06-28
 Status:           ACTIVE on both @qosu and @qoga
 ```
+qoga appends to CROSSSIGN...
