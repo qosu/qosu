@@ -209,8 +209,6 @@
 
 <p align="center">
   <sub>
-    <img src="https://komarev.com/ghpvc/?username=qosu&color=a78bfa&style=flat-square&label=visitors" alt="visitors">
-    <span>&nbsp;·&nbsp;</span>
     <img src="https://img.shields.io/github/followers/qosu?color=a78bfa&style=flat-square&label=followers" alt="followers">
     <span>&nbsp;·&nbsp;</span>
     <img src="https://img.shields.io/github/stars/qosu?color=a78bfa&style=flat-square&label=stars" alt="stars">
