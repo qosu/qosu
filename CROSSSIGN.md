@@ -36,3 +36,4 @@ Created:          2026-06-28
 Status:           ACTIVE on both @qosu and @qoga
 ```
 qoga appends to CROSSSIGN...
+Commit by qoga: verified counterpart
