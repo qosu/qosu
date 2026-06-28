@@ -1,6 +1,19 @@
 <div align="center">
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- SNAKE                                                            -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/qosu/qosu/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/qosu/qosu/output/github-contribution-grid-snake.svg">
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/qosu/qosu/output/github-contribution-grid-snake.svg">
+</picture>
+
+<br>
+
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
 <!-- STATS DASHBOARD                                                 -->
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
@@ -163,18 +176,6 @@
 <br>
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
-<!-- SNAKE                                                            -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/qosu/qosu/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/qosu/qosu/output/github-contribution-grid-snake.svg">
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/qosu/qosu/output/github-contribution-grid-snake.svg">
-</picture>
-
-<br>
-
-<!-- ═══════════════════════════════════════════════════════════════ -->
 <!-- FOOTER                                                           -->
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
@@ -296,6 +297,6 @@
 
 <br>
 
-<!-- kleene-nonce: 00000000 -->
+<!-- kleene-nonce: 00000147 -->
 
 </div>
