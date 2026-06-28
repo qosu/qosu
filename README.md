@@ -39,7 +39,7 @@
 <br>
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
-<!-- CORE PROJECTS — CARD LAYOUT                                     -->
+<!-- CORE PROJECTS                                                       -->
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
 ## ◈ 𝔠𝔬𝔯𝔢 𝔭𝔯𝔬𝔧𝔢𝔠𝔱𝔰
@@ -57,7 +57,7 @@
 <p align="center"><i>Spacetime as a Self-Correcting Computational Medium</i></p>
 
 <p align="center">
-  <sub>Born rule emerges from Kolmogorov complexity minimization — not fundamental, not observer-dependent. The universe rewrites its past to maintain consistency.</sub>
+  <sub>Born rule emerges from Kolmogorov complexity minimization, not fundamental, not observer-dependent. The universe rewrites its past to maintain consistency.</sub>
 </p>
 
 <p align="center">
@@ -73,7 +73,7 @@
   </a>
 </h3>
 
-<p align="center"><i>Symbiotic AI Wearable — Real-time Cognitive Enhancement</i></p>
+<p align="center"><i>Symbiotic AI Wearable | Real-time Cognitive Enhancement</i></p>
 
 <p align="center">
   <sub>Socratic prompting that makes you smarter, not lazier. Anti-brainrot theorem, fading scaffold, blindspot detection.</sub>
@@ -94,7 +94,7 @@
   </a>
 </h3>
 
-<p align="center"><i>Research Archive — Formal Claims & Knowledge Graph</i></p>
+<p align="center"><i>Research Archive | Formal Claims &amp; Knowledge Graph</i></p>
 
 <p align="center">
   <sub>Verified claims, KG entries, SAT+Lean4 formal verification of combinatorial bounds: Schur numbers, Ramsey theory, Rado numbers.</sub>
@@ -113,7 +113,7 @@
   </a>
 </h3>
 
-<p align="center"><i>Causal Fracture Engine — 6-file Core Engine</i></p>
+<p align="center"><i>Causal Fracture Engine | 6-file Core Engine</i></p>
 
 <p align="center">
   <sub>Novikov self-consistency in simulated universes. Paradox detection, classification, resolution.</sub>
@@ -130,7 +130,7 @@
 <br>
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
-<!-- RESEARCH DOMAINS — ASCII ART                                    -->
+<!-- RESEARCH DOMAINS                                                      -->
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
 ## ◈ 𝔯𝔢𝔰𝔢𝔞𝔯𝔠𝔥 𝔡𝔬𝔪𝔞𝔦𝔫𝔰
@@ -224,7 +224,7 @@
 <summary><sub>⚛</sub></summary>
 <br>
 <p align="center">
-  <sub>“The universe does not speak in equations — it rewrites its own source code.</sub>
+  <sub>“The universe does not speak in equations, it rewrites its own source code.</sub>
   <br>
   <sub>We are not observers of reality; we are participants in its compilation.”</sub>
 </p>
