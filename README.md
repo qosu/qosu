@@ -256,9 +256,11 @@
     Define the transformation <strong>T</strong> that, given a document,<br>
     appends an incrementing nonce until its SHA-256 becomes prime.<br>
     <br>
-    Then <strong>T(README) = README</strong> — the document you are reading<br>
-    is a fixed point of T.
-  </sub>
+    Then <strong>T(README) = README</strong>.</sub>
+</p>
+
+<p align="center">
+  <sub>The document you are reading is a fixed point of T.</sub>
 </p>
 
 <br>
@@ -292,6 +294,6 @@
 
 <br>
 
-<!-- kleene-nonce: 00000130 -->
+<!-- kleene-nonce: 00000601 -->
 
 </div>
