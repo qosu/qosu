@@ -230,4 +230,68 @@
 </p>
 </details>
 
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- KLEENE FIXED POINT                                               -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<br>
+
+## ◈ 𝔨𝔩𝔢𝔢𝔫𝔢 𝔣𝔦𝔵𝔢𝔡 𝔭𝔬𝔦𝔫𝔱
+
+<p align="center">
+  <samp>
+    For any computable function f, there exists an index e<br>
+    such that φ<sub>e</sub> = φ<sub>f(e)</sub>.<br>
+    <br>
+    <i>Kleene's Second Recursion Theorem, 1938</i>
+  </samp>
+</p>
+
+<br>
+
+<p align="center">
+  <sub>
+    This README is a <strong>constructive witness</strong> to Kleene's theorem.<br>
+    <br>
+    Define the transformation <strong>T</strong> that, given a document,<br>
+    appends an incrementing nonce until its SHA-256 becomes prime.<br>
+    <br>
+    Then <strong>T(README) = README</strong> — the document you are reading<br>
+    is a fixed point of T.
+  </sub>
+</p>
+
+<br>
+<br>
+
+```
+  The SHA-256 of this README, interpreted as a 256-bit integer,
+  is provably prime.
+
+  This is not a claim you must trust. Verify:
+
+    $ curl -sL https://raw.githubusercontent.com/qosu/qosu/main/README.md \
+      | sha256sum
+
+    $ python3 -c "
+  import hashlib
+  h = int(hashlib.sha256(open('README.md','rb').read()).hexdigest(), 16)
+  n = h; r = 0; d = n - 1
+  while d % 2 == 0: r += 1; d //= 2
+  bases = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37]
+  def check(a):
+      x = pow(a, d, n)
+      if x == 1 or x == n - 1: return True
+      for _ in range(r - 1):
+          x = (x * x) % n
+          if x == n - 1: return True
+      return False
+  print('PRIME' if n > 1 and all(check(a) for a in bases if a < n) else 'COMPOSITE')
+  "
+```
+
+<br>
+
+<!-- kleene-nonce: 00000130 -->
+
 </div>
