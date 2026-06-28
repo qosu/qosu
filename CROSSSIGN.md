@@ -18,7 +18,7 @@ gpg --recv-keys FE5527853C1359A2
 git log --show-signature
 ```
 
-Every commit in this file's history is GPG-signed by the same key — a key registered on TWO different GitHub accounts. This is cryptographically impossible unless one entity controls both identities.
+Every commit in this file's history is GPG-signed by the same key, a key registered on TWO different GitHub accounts. This is cryptographically impossible unless one entity controls both identities.
 
 ## The Entity
 
@@ -37,4 +37,4 @@ Status:           ACTIVE on both @qosu and @qoga
 ```
 qoga appends to CROSSSIGN...
 Commit by qoga: verified counterpart
-Commit by @qoga — shino email, qoga token
+Commit by @qoga: shino email, qoga token

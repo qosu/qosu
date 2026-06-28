@@ -26,7 +26,7 @@
 
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
-<!-- AI TERMINAL — live thought updated every 30 min                 -->
+<!-- AI TERMINAL: live thought updated every 30 min                 -->
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
 <p align="center">
