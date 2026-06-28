@@ -273,7 +273,9 @@
   This is not a claim you must trust. Verify:
 
     $ curl -sL https://raw.githubusercontent.com/qosu/qosu/main/README.md \
-      | sha256sum
+      -o README.md
+
+    $ sha256sum README.md
 
     $ python3 -c "
   import hashlib
@@ -294,6 +296,6 @@
 
 <br>
 
-<!-- kleene-nonce: 00000601 -->
+<!-- kleene-nonce: 00000000 -->
 
 </div>
