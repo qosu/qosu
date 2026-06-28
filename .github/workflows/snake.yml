@@ -27,6 +27,59 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
+      - name: Imprint Kleene nonce
+        run: |
+          python3 << 'PYEOF'
+          import hashlib
+
+          def is_prime(n):
+              if n < 2: return False
+              if n < 4: return True
+              if n % 2 == 0: return False
+              r, d = 0, n - 1
+              while d % 2 == 0:
+                  r += 1
+                  d //= 2
+              for a in [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37]:
+                  if a >= n: continue
+                  x = pow(a, d, n)
+                  if x == 1 or x == n - 1: continue
+                  for _ in range(r - 1):
+                      x = (x * x) % n
+                      if x == n - 1: break
+                  else:
+                      return False
+              return True
+
+          marker = b"<!-- kleene-nonce: 00000000 -->"
+
+          for variant in ["", "-dark"]:
+              path = f"dist/github-contribution-grid-snake{variant}.svg"
+              with open(path, "rb") as f:
+                  svg = f.read()
+
+              idx = svg.index(b">") + 1
+              template = svg[:idx] + marker + svg[idx:]
+
+              found = False
+              for i in range(50000):
+                  nonce = f"{i:08d}"
+                  new_marker = f"<!-- kleene-nonce: {nonce} -->".encode()
+                  candidate = template.replace(marker, new_marker)
+                  h = hashlib.sha256(candidate).hexdigest()
+                  if is_prime(int(h, 16)):
+                      with open(path, "wb") as f:
+                          f.write(candidate)
+                      print(f"{variant or 'light'}: nonce={nonce} hash={h}")
+                      found = True
+                      break
+
+              if not found:
+                  print(f"{variant or 'light'}: NONCE NOT FOUND IN 50000 -- pushing unmarked SVG")
+                  with open(path, "wb") as f:
+                      f.write(svg)
+          PYEOF
+
       - name: Push to output branch
         run: |
           git config user.name "github-actions[bot]"
