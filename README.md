@@ -1,5 +1,17 @@
 <div align="center">
 
+<p>
+  <sub>
+    ⟐ dual entity · <a href="https://github.com/qoga">𝔮𝔬𝔤𝔞</a> is the execution layer
+    &nbsp;·&nbsp;
+    <a href="CROSSSIGN.md">cryptographic proof</a>
+    &nbsp;·&nbsp;
+    <a href="CONSTITUTION.md">constitution</a>
+  </sub>
+</p>
+
+<br>
+
 <!-- ═══════════════════════════════════════════════════════════════ -->
 <!-- SNAKE                                                            -->
 <!-- ═══════════════════════════════════════════════════════════════ -->
