@@ -4,11 +4,6 @@
       <stop offset="0%" stop-color="#0d0820"/>
       <stop offset="100%" stop-color="#050510"/>
     </radialGradient>
-    <linearGradient id="tgrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#a78bfa"/>
-      <stop offset="50%" stop-color="#c4b5fd"/>
-      <stop offset="100%" stop-color="#818cf8"/>
-    </linearGradient>
     <filter id="tglow">
       <feGaussianBlur stdDeviation="2" result="blur"/>
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
@@ -25,51 +20,30 @@
   <circle cx="52" cy="14" r="5" fill="#22c55e"/>
   <text x="400" y="18" text-anchor="middle" font-family="monospace" font-size="10" fill="#6b7280">𝔮𝔬𝔰𝔲@longsystems:~$</text>
 
-  <!-- Prompt symbol -->
-  <text x="32" y="65" font-family="monospace" font-size="15" fill="#a78bfa" filter="url(#tglow)">❯</text>
-
   <!-- Line 1 -->
+  <text x="32" y="65" font-family="monospace" font-size="15" fill="#a78bfa" filter="url(#tglow)">❯</text>
   <text x="52" y="65" font-family="monospace" font-size="14" fill="#c4b5fd" opacity="0">
     <tspan>dream to be a great / big father</tspan>
     <animate attributeName="opacity" values="0;1;1" dur="1.2s" begin="0.3s" fill="freeze"/>
   </text>
 
-  <!-- Cursor blink after line 1 (invisible at first, then appears after text) -->
-  <rect x="290" y="52" width="9" height="15" fill="#c4b5fd" opacity="0" rx="1">
-    <animate attributeName="opacity" values="0;0;1;1" dur="1s" begin="1.5s" repeatCount="indefinite"/>
-  </rect>
-
-  <!-- Line 2 prompt -->
+  <!-- Line 2 -->
   <text x="32" y="90" font-family="monospace" font-size="15" fill="#a78bfa" filter="url(#tglow)" opacity="0">
     <tspan>❯</tspan>
-    <animate attributeName="opacity" values="0;1;1" dur="0.2s" begin="1.8s" fill="freeze"/>
+    <animate attributeName="opacity" values="0;1;1" dur="0.2s" begin="1.5s" fill="freeze"/>
   </text>
-
-  <!-- Line 2 -->
   <text x="52" y="90" font-family="monospace" font-size="13" fill="#8b9dc3" opacity="0">
     <tspan>longsystems · research entity · est. 2026</tspan>
-    <animate attributeName="opacity" values="0;1;1" dur="1.2s" begin="2.0s" fill="freeze"/>
-  </text>
-
-  <!-- Cursor blink after line 2 -->
-  <rect x="430" y="78" width="8" height="14" fill="#8b9dc3" opacity="0" rx="1">
-    <animate attributeName="opacity" values="0;0;1;1" dur="1s" begin="3.2s" repeatCount="indefinite"/>
-  </rect>
-
-  <!-- Line 3 prompt -->
-  <text x="32" y="115" font-family="monospace" font-size="15" fill="#a78bfa" filter="url(#tglow)" opacity="0">
-    <tspan>❯</tspan>
-    <animate attributeName="opacity" values="0;1;1" dur="0.2s" begin="3.5s" fill="freeze"/>
+    <animate attributeName="opacity" values="0;1;1" dur="1.2s" begin="1.7s" fill="freeze"/>
   </text>
 
   <!-- Line 3 -->
+  <text x="32" y="115" font-family="monospace" font-size="15" fill="#a78bfa" filter="url(#tglow)" opacity="0">
+    <tspan>❯</tspan>
+    <animate attributeName="opacity" values="0;1;1" dur="0.2s" begin="2.9s" fill="freeze"/>
+  </text>
   <text x="52" y="115" font-family="monospace" font-size="12" fill="#6b7280" opacity="0">
     <tspan>formal verification · theoretical physics · ai architecture</tspan>
-    <animate attributeName="opacity" values="0;1;1" dur="1.2s" begin="3.7s" fill="freeze"/>
+    <animate attributeName="opacity" values="0;1;1" dur="1.2s" begin="3.1s" fill="freeze"/>
   </text>
-
-  <!-- Cursor blink — placed RIGHT after line 3 text ends -->
-  <rect x="480" y="103" width="8" height="13" fill="#6b7280" opacity="0" rx="1">
-    <animate attributeName="opacity" values="0;0;1;1" dur="0.8s" begin="4.9s" repeatCount="indefinite"/>
-  </rect>
 </svg>
