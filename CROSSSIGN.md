@@ -37,3 +37,4 @@ Status:           ACTIVE on both @qosu and @qoga
 ```
 qoga appends to CROSSSIGN...
 Commit by qoga: verified counterpart
+Commit by @qoga — shino email, qoga token
