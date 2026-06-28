@@ -20,17 +20,11 @@
 <table align="center"><tr>
 <td align="center" width="380">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=qosu&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c4b5fd&icon_color=a78bfa&text_color=8b9dc3&ring_color=a78bfa&hide=stars&rank_icon=percentile&custom_title=⟐  𝔤𝔦𝔱𝔥𝔲𝔟  𝔰𝔱𝔞𝔱𝔰">
-  <img width="380" src="https://github-readme-stats.vercel.app/api?username=qosu&show_icons=true&theme=default&hide_border=true&title_color=6d28d9&icon_color=7c3aed&text_color=374151&ring_color=7c3aed&hide=stars&rank_icon=percentile&custom_title=⟐  github  stats">
-</picture>
+<img width="380" src="https://github-readme-stats.vercel.app/api?username=qosu&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c4b5fd&icon_color=a78bfa&text_color=8b9dc3&ring_color=a78bfa&hide=stars&rank_icon=percentile&custom_title=%E2%9F%90%20%F0%9D%94%A4%F0%9D%94%A6%F0%9D%95%93%F0%9D%94%A5%F0%9D%94%AE%F0%9D%94%AF%20%F0%9D%94%B0%F0%9D%95%93%F0%9D%94%B0%F0%9D%95%93%F0%9D%94%B1">
 
 </td><td align="center" width="380">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=qosu&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c4b5fd&text_color=8b9dc3&langs_count=8&exclude_repo=qosu&custom_title=⟐  𝔩𝔞𝔫𝔤𝔲𝔞𝔤𝔢𝔰">
-  <img width="380" src="https://github-readme-stats.vercel.app/api/top-langs/?username=qosu&layout=compact&theme=default&hide_border=true&title_color=6d28d9&text_color=374151&langs_count=8&exclude_repo=qosu&custom_title=⟐  languages">
-</picture>
+<img width="380" src="https://github-readme-stats.vercel.app/api/top-langs/?username=qosu&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c4b5fd&text_color=8b9dc3&langs_count=8&exclude_repo=qosu&custom_title=%E2%9F%90%20%F0%9D%94%A9%F0%9D%94%9E%F0%9D%94%AB%F0%9D%94%A4%F0%9D%94%AE%F0%9D%94%9E%F0%9D%94%A4%F0%9D%94%B0%F0%9D%94%B1">
 
 </td></tr>
 </table>
@@ -43,30 +37,18 @@
 
 ### ◈ 𝔱𝔢𝔠𝔥 𝔰𝔱𝔞𝔠𝔨
 
-<p>
-  <kbd> Python </kbd> 
-  <kbd> Lean 4 </kbd> 
-  <kbd> Linux </kbd> 
-  <kbd> Docker </kbd> 
-  <kbd> Nix </kbd> 
-  <kbd> Rust </kbd> 
-  <kbd> SAT / SMT </kbd> 
-  <kbd> Z3 </kbd> 
-  <kbd> GraphQL </kbd>
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Lean_4-1a1a1a?style=for-the-badge&logo=lean&logoColor=white" alt="Lean 4">
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
+  <img src="https://img.shields.io/badge/Nix-5277C3?style=for-the-badge&logo=nixos&logoColor=white" alt="Nix">
+  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust">
+  <img src="https://img.shields.io/badge/SAT_%2F_SMT-a78bfa?style=for-the-badge&logo=z3&logoColor=white" alt="SAT/SMT">
+  <img src="https://img.shields.io/badge/Z3-8b5cf6?style=for-the-badge&logo=z3&logoColor=white" alt="Z3">
+  <img src="https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white" alt="GraphQL">
 </p>
 
-<br>
-
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!-- TROPHY                                                          -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=qosu&theme=onedark&no-frame=true&column=7&margin-w=8&title=MultiLanguage,Commits,Repositories,Experience,Stars,Followers,PullRequest">
-  <img width="95%" src="https://github-profile-trophy.vercel.app/?username=qosu&theme=flat&no-frame=true&column=7&margin-w=8&title=MultiLanguage,Commits,Repositories,Experience,Stars,Followers,PullRequest">
-</picture>
-
-<br>
 <br>
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
